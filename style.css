@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+
+    background: darkslategray;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.header_div {
+    flex: 40%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.div_header {
+
+}
+
+.div_body {
+    display: flex;
+}
+
+.img_and_text {
+    margin: 10px;
+}
+
+.quote_container {
+    
+}
+
+.container_copyright {
+    background: darkslategray;
+
+}
