@@ -1,7 +1,6 @@
 body {
     display: flex;
     flex-direction: column;
-
 }
 
 div {
@@ -13,10 +12,10 @@ div {
     flex-wrap: wrap;
     padding-left: 100px;
     padding-right: 100px;
+    padding-bottom: 70px;
     flex: 200px;
     background: #1F2937;
     justify-content: space-around;
-    
 }
 
 .container1_child {
@@ -32,7 +31,7 @@ h1 {
 }
 
 h2 {
-    font-size: 18px;
+    font-size: 14px;
     color: #E5E7EB;
 }
 
@@ -55,9 +54,24 @@ a {
 }
 
 .header-img {
-    height: 200px;
+    height: 250px;
     width: 500px;
     object-fit: cover;
+}
+
+.container2_img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.container2_text {
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    color: gray;
+    font-size: 14px;
 }
 
 .container2 {
@@ -71,6 +85,7 @@ a {
     color: #1F2937;
     font-weight: bolder;
     text-align: center;
+    padding: 20px;
 }
 
 .container2_body {
@@ -80,7 +95,8 @@ a {
 
 .img_and_text {
     margin: 10px;
-    padding: 10px;
+    padding: 20px;
+    text-align: center;
 }
 
 .container3 {
@@ -101,21 +117,33 @@ a {
 .author {
     text-align: right;
     font-weight: bold;
+    padding-top: 10px;
+    padding-inline-end: 100px;
 }
 
 .container4 {
     display: flex;
     justify-content: center;
     color: #F9FAF8;
+    padding: 70px;
 }
 
 .container4_child {
     background-color: #3882F6;
     padding: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
 }
 
-.container5 {
-    background: #1F2937;
+.container4_child:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px;
+}
+
+.container4_child > button {
+    border-color: #F9FAF8;
 }
 
 button {
@@ -123,9 +151,15 @@ button {
     color: #F9FAF8;
     padding-left: 10px;
     padding-right: 10px;
+    border-radius: 8px;
+    width: 100px;
+    height: 35px;
     
 }
-
-.container4_child > button {
-    border-color: #F9FAF8;
+.container5 {
+    background: #1F2937;
+    color: #E5E7EB;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
 }
